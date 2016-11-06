@@ -19,6 +19,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 @Table(name = "ecomm_order_item")
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
+public
 class OrderLineItem {
 
 	@Id
